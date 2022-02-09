@@ -1,0 +1,30 @@
+{
+    "fields": {
+        "dubasParcel": "Parcel",
+        "parcel": "Parcel",
+        "status": "Status"
+    },
+    "links": {
+        "dubasParcel": "Parcel",
+        "parcel": "Parcel"
+    },
+    "labels": {
+        "Create DubasParcelStatus": "Create Parcel Status"
+    },
+    "options": {
+        "status": {
+            "New": "New",
+            "Parcel accepted": "Parcel accepted",
+            "Collected": "Collected",
+            "Shipped": "Shipped",
+            "In transit": "In transit",
+            "Arrived at destination": "Arrived at destination",
+            "Out for delivery": "Out for delivery",
+            "Ready to Pickup": "Ready to Pickup",
+            "Delivered": "Delivered",
+            "Picked up": "Picked up",
+            "Unsuccessful delivery attempt": "Unsuccessful delivery attempt",
+            "Returned to sender": "Returned to sender"
+        }
+    }
+}

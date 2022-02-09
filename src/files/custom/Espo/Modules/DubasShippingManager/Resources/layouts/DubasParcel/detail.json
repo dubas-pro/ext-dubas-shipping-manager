@@ -1,0 +1,95 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "parcelType"
+                },
+                {
+                    "name": "price"
+                }
+            ],
+            [
+                {
+                    "name": "weight"
+                },
+                {
+                    "name": "width"
+                },
+                {
+                    "name": "height"
+                },
+                {
+                    "name": "lenght"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "📦 Parcel"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "sender"
+                },
+                {
+                    "name": "pickupLocation"
+                }
+            ],
+            [
+                {
+                    "name": "senderContact"
+                },
+                {
+                    "name": "pickupAddress"
+                }
+            ],
+            [
+                {
+                    "name": "pickupInstructions"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "🛻 Pickup information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "recipient"
+                },
+                {
+                    "name": "deliveryLocation"
+                }
+            ],
+            [
+                {
+                    "name": "recipientContact"
+                },
+                {
+                    "name": "deliveryAddress"
+                }
+            ],
+            [
+                {
+                    "name": "deliveryInstructions"
+                }
+            ]
+        ],
+        "style": "default",
+        "dynamicLogicVisible": null,
+        "hidden": false,
+        "customLabel": "🚚 Delivery"
+    }
+]
