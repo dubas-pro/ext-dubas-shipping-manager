@@ -5,9 +5,6 @@
             "required": true,
             "trim": true
         },
-        "description": {
-            "type": "text"
-        },
         "createdAt": {
             "type": "datetime",
             "readOnly": true

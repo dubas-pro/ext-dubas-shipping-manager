@@ -106,10 +106,12 @@
             "isCustom": true
         },
         "pickupLocation": {
-            "type": "link"
+            "type": "link",
+            "view": "dubas-shipping-manager:views/dubas-parcel/fields/pickup-location"
         },
         "deliveryLocation": {
-            "type": "link"
+            "type": "link",
+            "view": "dubas-shipping-manager:views/dubas-parcel/fields/delivery-location"
         },
         "deliveryInstructions": {
             "type": "text",
