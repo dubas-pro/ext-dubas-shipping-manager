@@ -65,7 +65,7 @@ Espo.define('dubas-shipping-manager:views/dubas-parcel/fields/pickup-location', 
                         value: ['Pickup'],
                         data: {
                             type: 'anyOf',
-                            nameValue: ['Pickup']
+                            valueList: ['Pickup']
                         }
                     }
                 };
