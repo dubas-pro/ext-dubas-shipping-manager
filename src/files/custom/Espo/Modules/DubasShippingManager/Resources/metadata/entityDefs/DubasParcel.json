@@ -140,6 +140,14 @@
             "type": "date",
             "readOnly": true,
             "isCustom": true
+        },
+        "packages": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
         }
     },
     "links": {
@@ -207,6 +215,13 @@
             "type": "belongsTo",
             "foreign": "deliveredParcels",
             "entity": "DubasLocation",
+            "audited": false,
+            "isCustom": true
+        },
+        "packages": {
+            "type": "hasMany",
+            "foreign": "parcel",
+            "entity": "DubasPackage",
             "audited": false,
             "isCustom": true
         }

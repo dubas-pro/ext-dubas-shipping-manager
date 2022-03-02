@@ -11,26 +11,12 @@
             ],
             [
                 {
-                    "name": "weight"
-                },
-                {
-                    "name": "width"
-                },
-                {
-                    "name": "height"
-                },
-                {
-                    "name": "lenght"
-                }
-            ],
-            [
-                {
                     "name": "description"
                 }
             ]
         ],
-        "style": "default",
         "dynamicLogicVisible": null,
+        "style": "default",
         "hidden": false,
         "customLabel": "📦 Parcel"
     },
@@ -58,8 +44,8 @@
                 }
             ]
         ],
-        "style": "default",
         "dynamicLogicVisible": null,
+        "style": "default",
         "hidden": false,
         "customLabel": "🛻 Pickup information"
     },
@@ -87,8 +73,8 @@
                 }
             ]
         ],
-        "style": "default",
         "dynamicLogicVisible": null,
+        "style": "default",
         "hidden": false,
         "customLabel": "🚚 Delivery"
     }

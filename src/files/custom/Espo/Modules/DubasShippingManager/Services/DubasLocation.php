@@ -20,7 +20,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Modules\DubasShippingManager\Services;
+namespace Espo\Custom\Services;
 
 class DubasLocation extends \Espo\Core\Templates\Services\Base
 {

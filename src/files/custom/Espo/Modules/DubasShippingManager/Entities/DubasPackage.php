@@ -20,8 +20,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Custom\Services;
+namespace Espo\Custom\Entities;
 
-class DubasParcelStatus extends \Espo\Core\Templates\Services\Base
+class DubasPackage extends \Espo\Core\Templates\Entities\Base
 {
+    public const ENTITY_TYPE = 'DubasPackage';
+
+    protected $entityType = 'DubasPackage';
 }

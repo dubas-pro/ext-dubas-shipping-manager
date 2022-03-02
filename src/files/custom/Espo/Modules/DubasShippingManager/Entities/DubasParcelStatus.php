@@ -20,7 +20,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Modules\DubasShippingManager\Entities;
+namespace Espo\Custom\Entities;
 
 class DubasParcelStatus extends \Espo\Core\Templates\Entities\Base
 {

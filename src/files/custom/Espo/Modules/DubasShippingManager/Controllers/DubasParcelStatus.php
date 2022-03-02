@@ -20,7 +20,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Modules\DubasShippingManager\Controllers;
+namespace Espo\Custom\Controllers;
 
 class DubasParcelStatus extends \Espo\Core\Templates\Controllers\Base
 {

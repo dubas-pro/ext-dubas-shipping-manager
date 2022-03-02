@@ -1,0 +1,21 @@
+{
+    "fields": {
+        "parcel": "Parcel",
+        "weight": "Weight",
+        "width": "Width",
+        "height": "Height",
+        "lenght": "Lenght",
+        "name": "Package number",
+        "value": "Value",
+        "valueCurrency": "Value (Currency)",
+        "valueConverted": "Value (Converted)",
+        "description": "Description of content",
+        "referenceNumber": "Reference number"
+    },
+    "links": {
+        "parcel": "Parcel"
+    },
+    "labels": {
+        "Create DubasPackage": "Create Package"
+    }
+}

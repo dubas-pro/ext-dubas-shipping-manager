@@ -1,0 +1,21 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "weight"
+    },
+    {
+        "name": "width"
+    },
+    {
+        "name": "lenght"
+    },
+    {
+        "name": "height"
+    },
+    {
+        "name": "parcel"
+    }
+]

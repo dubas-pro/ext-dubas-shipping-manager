@@ -1,0 +1,45 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "referenceNumber"
+                }
+            ],
+            [
+                {
+                    "name": "parcel"
+                },
+                {
+                    "name": "value"
+                }
+            ],
+            [
+                {
+                    "name": "lenght"
+                },
+                {
+                    "name": "height"
+                }
+            ],
+            [
+                {
+                    "name": "weight"
+                },
+                {
+                    "name": "width"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

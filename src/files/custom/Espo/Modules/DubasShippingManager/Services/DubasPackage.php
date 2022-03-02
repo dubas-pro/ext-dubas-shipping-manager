@@ -22,6 +22,6 @@
 
 namespace Espo\Custom\Services;
 
-class DubasParcelStatus extends \Espo\Core\Templates\Services\Base
+class DubasPackage extends \Espo\Core\Templates\Services\Base
 {
 }

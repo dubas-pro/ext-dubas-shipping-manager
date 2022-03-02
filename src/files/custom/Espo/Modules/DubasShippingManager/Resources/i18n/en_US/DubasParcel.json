@@ -35,7 +35,9 @@
         "priceCurrency": "Price (Currency)",
         "priceConverted": "Price (Converted)",
         "pickupDate": "Pickup date",
-        "deliveryDate": "Delivery date"
+        "deliveryDate": "Delivery date",
+        "packages": "Packages",
+        "referenceNumber": "Reference number"
     },
     "links": {
         "dubasParcelStatuses": "Parcel Statuses",
@@ -45,7 +47,8 @@
         "recipient": "Recipient",
         "pickupLocation": "Pickup Location",
         "parcelStatuses": "Parcel Statuses",
-        "deliveryLocation": "Delivery Location"
+        "deliveryLocation": "Delivery Location",
+        "packages": "Packages"
     },
     "labels": {
         "Create DubasParcel": "Create Parcel"
