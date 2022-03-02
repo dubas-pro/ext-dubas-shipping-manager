@@ -23,7 +23,7 @@
         "deliveredParcels": "Delivered Parcels"
     },
     "labels": {
-        "Create DubasParcelLocation": "Create Parcel Location"
+        "Create DubasLocation": "Create Parcel Location"
     },
     "options": {
         "typeOfLocation": {

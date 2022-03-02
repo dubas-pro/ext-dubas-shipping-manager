@@ -16,7 +16,7 @@
             "importDisabled": true,
             "isCustom": true
         },
-        "dubasParcelLocations": {
+        "DubasLocations": {
             "type": "linkMultiple",
             "layoutDetailDisabled": true,
             "layoutMassUpdateDisabled": true,
@@ -40,10 +40,10 @@
             "audited": false,
             "isCustom": true
         },
-        "dubasParcelLocations": {
+        "DubasLocations": {
             "type": "hasMany",
             "foreign": "contact",
-            "entity": "DubasParcelLocation",
+            "entity": "DubasLocation",
             "audited": false,
             "isCustom": true
         }

@@ -127,14 +127,14 @@
         },
         "contact": {
             "type": "belongsTo",
-            "foreign": "dubasParcelLocations",
+            "foreign": "DubasLocations",
             "entity": "Contact",
             "audited": false,
             "isCustom": true
         },
         "account": {
             "type": "belongsTo",
-            "foreign": "dubasParcelLocations",
+            "foreign": "DubasLocations",
             "entity": "Account",
             "audited": false,
             "isCustom": true

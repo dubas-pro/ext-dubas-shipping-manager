@@ -40,10 +40,7 @@ Espo.define('dubas-shipping-manager:views/dubas-parcel/fields/delivery-location'
 
         getSelectFilters: function () {
             if (this.model.get('recipientId')) {
-                var nameHash = {};
                 if (this.model.get('parcelType') === 'Delivery') {
-                    nameHash['Delivery'] = 'Delivery';
-
                     return {
                         'account': {
                             type: 'equals',
@@ -69,14 +66,11 @@ Espo.define('dubas-shipping-manager:views/dubas-parcel/fields/delivery-location'
                             value: ['Delivery'],
                             data: {
                                 type: 'anyOf',
-                                nameHash: nameHash,
-                                nameValue: 'Delivery'
+                                valueList: ['Delivery']
                             }
                         }
                     };
                 } else {
-                    nameHash['Pickup Point'] = 'Pickup Point';
-
                     return {
                         'status': {
                             type: 'in',
@@ -93,8 +87,7 @@ Espo.define('dubas-shipping-manager:views/dubas-parcel/fields/delivery-location'
                             value: ['Pickup Point'],
                             data: {
                                 type: 'anyOf',
-                                nameHash: nameHash,
-                                nameValue: 'Pickup Point'
+                                valueList: ['Pickup Point']
                             }
                         }
                     };

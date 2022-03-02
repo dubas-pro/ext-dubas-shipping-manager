@@ -20,8 +20,9 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Modules\DubasShippingManager\Repositories;
+namespace Espo\Modules\DubasShippingManager\Entities;
 
-class DubasParcelLocation extends \Espo\Core\Templates\Repositories\Base
+class DubasLocation extends \Espo\Core\Templates\Entities\Base
 {
+    protected $entityType = 'DubasLocation';
 }

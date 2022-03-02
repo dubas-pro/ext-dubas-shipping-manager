@@ -2,11 +2,11 @@
     "scopeNames": {
         "DubasParcel": "Parcel",
         "DubasParcelStatus": "Parcel Status",
-        "DubasParcelLocation": "Parcel Location"
+        "DubasLocation": "Parcel Location"
     },
     "scopeNamesPlural": {
         "DubasParcel": "Parcels",
         "DubasParcelStatus": "Parcel Statuses",
-        "DubasParcelLocation": "Parcel Locations"
+        "DubasLocation": "Parcel Locations"
     }
 }

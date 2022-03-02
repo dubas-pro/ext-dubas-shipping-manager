@@ -199,14 +199,14 @@
         "pickupLocation": {
             "type": "belongsTo",
             "foreign": "sentParcels",
-            "entity": "DubasParcelLocation",
+            "entity": "DubasLocation",
             "audited": false,
             "isCustom": true
         },
         "deliveryLocation": {
             "type": "belongsTo",
             "foreign": "deliveredParcels",
-            "entity": "DubasParcelLocation",
+            "entity": "DubasLocation",
             "audited": false,
             "isCustom": true
         }

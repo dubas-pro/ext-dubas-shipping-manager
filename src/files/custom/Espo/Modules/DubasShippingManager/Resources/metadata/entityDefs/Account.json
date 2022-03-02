@@ -1,6 +1,6 @@
 {
     "fields": {
-        "dubasParcelLocations": {
+        "DubasLocations": {
             "type": "linkMultiple",
             "layoutDetailDisabled": true,
             "layoutMassUpdateDisabled": true,
@@ -26,10 +26,10 @@
         }
     },
     "links": {
-        "dubasParcelLocations": {
+        "DubasLocations": {
             "type": "hasMany",
             "foreign": "account",
-            "entity": "DubasParcelLocation",
+            "entity": "DubasLocation",
             "audited": false,
             "isCustom": true
         },
