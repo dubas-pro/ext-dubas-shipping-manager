@@ -91,6 +91,18 @@
             "required": true,
             "default": "package"
         },
+        "pickupDate": {
+            "notNull": false,
+            "type": "date",
+            "readOnly": true,
+            "isCustom": true
+        },
+        "deliveryDate": {
+            "notNull": false,
+            "type": "date",
+            "readOnly": true,
+            "isCustom": true
+        },
         "status": {
             "type": "enum",
             "options": [

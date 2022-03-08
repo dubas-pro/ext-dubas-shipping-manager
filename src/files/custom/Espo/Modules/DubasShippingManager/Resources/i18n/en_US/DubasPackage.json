@@ -7,6 +7,8 @@
         "lenght": "Lenght",
         "name": "Package number",
         "value": "Value",
+        "pickupDate": "Pickup date",
+        "deliveryDate": "Delivery date",
         "valueCurrency": "Value (Currency)",
         "valueConverted": "Value (Converted)",
         "description": "Description of content",

@@ -20,12 +20,12 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Modules\DubasShippingManager\Hooks\DubasPackageStatus;
+namespace Espo\Modules\DubasShippingManager\Hooks\DubasPackage;
 
 use Espo\ORM\Entity;
 use Espo\ORM\EntityManager;
 
-class SetPackageStatus
+class CopyReferenceNumber
 {
     protected $entityManager;
 
@@ -36,23 +36,10 @@ class SetPackageStatus
 
     public function beforeSave(Entity $entity, array $options, array $data): void
     {
-        if ($entity->isNew() || ($entity->isAttributeChanged('name') || $entity->isAttributeChanged('packagesIds'))) {
-            $packages = $entity->get('packagesIds');
-            foreach ($packages as $package) {
-                $p = null;
-                $p = $this->entityManager->getEntity('DubasPackage', $package);
-                $p->set('status', $entity->get('name'));
+        if ($entity->get('parcelId') && ($entity->isNew() && !$entity->get('referenceNumber'))) {
+            $parcel = $this->entityManager->getEntity('DubasParcel', $entity->get('parcelId'));
 
-                if ($entity->get('name') === 'Collected' && !$p->get('pickupDate')) {
-                    $p->set('pickupDate', date('Y-m-d'));
-                }
-
-                if ($entity->get('name') === 'Delivered' && !$p->get('deliveryDate')) {
-                    $p->set('deliveryDate', date('Y-m-d'));
-                }
-
-                $this->entityManager->saveEntity($p);
-            }
+            $entity->set('referenceNumber', $parcel->get('referenceNumber'));
         }
     }
 }

@@ -88,10 +88,12 @@
             "type": "link"
         },
         "sender": {
-            "type": "link"
+            "type": "link",
+            "required": true
         },
         "recipient": {
-            "type": "link"
+            "type": "link",
+            "required": true
         },
         "pickupLocation": {
             "type": "link",
@@ -115,18 +117,6 @@
         },
         "price": {
             "type": "currency",
-            "isCustom": true
-        },
-        "pickupDate": {
-            "notNull": false,
-            "type": "date",
-            "readOnly": true,
-            "isCustom": true
-        },
-        "deliveryDate": {
-            "notNull": false,
-            "type": "date",
-            "readOnly": true,
             "isCustom": true
         },
         "packages": {

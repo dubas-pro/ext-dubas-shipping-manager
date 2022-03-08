@@ -34,8 +34,6 @@
         "price": "Price",
         "priceCurrency": "Price (Currency)",
         "priceConverted": "Price (Converted)",
-        "pickupDate": "Pickup date",
-        "deliveryDate": "Delivery date",
         "packages": "Packages",
         "referenceNumber": "Reference number"
     },
