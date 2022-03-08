@@ -3,5 +3,15 @@
     "boolFilterList": [
         "onlyMy"
     ],
-    "iconClass": "fas fa-box-open"
+    "iconClass": "fas fa-box-open",
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "packageStatuses",
+                "label": "Statuses",
+                "view": "dubas-shipping-manager:views/dubas-package/record/panels/packageStatuses",
+                "aclScope": "DubasPackage"
+            }
+        ]
+    }
 }
