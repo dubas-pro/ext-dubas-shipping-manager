@@ -12,7 +12,6 @@
                 "Out for delivery",
                 "Ready to Pickup",
                 "Delivered",
-                "Picked up",
                 "Unsuccessful delivery attempt",
                 "Returned to sender"
             ],
@@ -26,7 +25,6 @@
                 "Out for delivery": "info",
                 "Ready to Pickup": "info",
                 "Delivered": "success",
-                "Picked up": "success",
                 "Unsuccessful delivery attempt": "danger",
                 "Returned to sender": "danger"
             },
