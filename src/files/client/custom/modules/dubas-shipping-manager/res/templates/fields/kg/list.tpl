@@ -1,0 +1,1 @@
+<span title="{{value}}">{{value}} kg</span>
