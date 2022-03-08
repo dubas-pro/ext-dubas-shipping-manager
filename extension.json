@@ -1,7 +1,7 @@
 {
     "module": "DubasShippingManager",
     "name": "Dubas Shipping Manager",
-    "description": "Extension which show how you can use EspoCRM to manage shipping company.",
+    "description": "Extension which show how you can use EspoCRM to manage shipping company. Support available through email: contact@dubas.pro. [📄Documentation](https://docs.dubas.pro) [☢️Repo](https://github.com/dubas-pro/ext-dubas-shipping-manager)",
     "author": "DUBAS S.C. - contact@dubas.pro",
     "authors": [
         "Arkadiy Asuratov",
@@ -13,6 +13,6 @@
     "php": [
         ">=7.3"
     ],
-    "releaseDate": "2022-02-09",
+    "releaseDate": "2022-03-08",
     "checkVersionUrl": "https://devcrm.it"
 }
