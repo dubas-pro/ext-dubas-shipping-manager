@@ -2,7 +2,7 @@
     "fields": {
         "dubasPackage": "Package",
         "packages": "Packages",
-        "status": "Status"
+        "name": "Status"
     },
     "links": {
         "dubasPackage": "Package",

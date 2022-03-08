@@ -3,7 +3,7 @@
         "rows": [
             [
                 {
-                    "name": "status"
+                    "name": "name"
                 },
                 {
                     "name": "packages"

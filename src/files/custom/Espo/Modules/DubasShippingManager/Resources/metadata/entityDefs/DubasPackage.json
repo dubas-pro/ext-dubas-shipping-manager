@@ -88,7 +88,8 @@
                 "dox",
                 "pallet"
             ],
-            "required": true
+            "required": true,
+            "default": "package"
         },
         "status": {
             "type": "enum",
