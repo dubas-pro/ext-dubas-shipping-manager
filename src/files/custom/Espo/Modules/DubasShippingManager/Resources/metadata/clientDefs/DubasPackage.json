@@ -1,4 +1,7 @@
 {
+    "views": {
+        "detail": "dubas-shipping-manager:views/dubas-package/detail"
+    },
     "controller": "controllers/record",
     "boolFilterList": [
         "onlyMy"
