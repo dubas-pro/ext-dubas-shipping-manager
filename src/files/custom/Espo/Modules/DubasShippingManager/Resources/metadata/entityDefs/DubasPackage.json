@@ -83,6 +83,54 @@
             "trim": true,
             "options": [],
             "isCustom": true
+        },
+        "type": {
+            "type": "enum",
+            "options": [
+                "package",
+                "dox",
+                "pallet"
+            ],
+            "style": [
+                "package",
+                "dox",
+                "pallet"
+            ],
+            "required": true
+        },
+        "status": {
+            "type": "enum",
+            "options": [
+                "New",
+                "Package accepted",
+                "Collected",
+                "Shipped",
+                "In transit",
+                "Arrived at destination",
+                "Out for delivery",
+                "Ready to Pickup",
+                "Delivered",
+                "Picked up",
+                "Unsuccessful delivery attempt",
+                "Returned to sender"
+            ],
+            "style": {
+                "New": null,
+                "Package accepted": null,
+                "Collected": null,
+                "Shipped": null,
+                "In transit": "info",
+                "Arrived at destination": null,
+                "Out for delivery": "info",
+                "Ready to Pickup": "info",
+                "Delivered": "success",
+                "Picked up": "success",
+                "Unsuccessful delivery attempt": "danger",
+                "Returned to sender": "danger"
+            },
+            "default": "New",
+            "readOnly": true,
+            "isCustom": false
         }
     },
     "links": {

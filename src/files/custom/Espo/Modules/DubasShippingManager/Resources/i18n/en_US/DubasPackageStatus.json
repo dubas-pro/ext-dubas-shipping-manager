@@ -2,7 +2,8 @@
     "fields": {
         "dubasPackage": "Package",
         "package": "Package",
-        "status": "Status"
+        "status": "Status",
+        "type": "Type"
     },
     "links": {
         "dubasPackage": "Package",
@@ -25,6 +26,11 @@
             "Picked up": "Picked up",
             "Unsuccessful delivery attempt": "Unsuccessful delivery attempt",
             "Returned to sender": "Returned to sender"
+        },
+        "type": {
+            "package": "Package",
+            "dox": "Dox",
+            "pallet": "Pallet"
         }
     }
 }

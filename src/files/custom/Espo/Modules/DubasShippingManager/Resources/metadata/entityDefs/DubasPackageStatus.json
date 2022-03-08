@@ -69,7 +69,7 @@
                 "Returned to sender": "danger"
             },
             "default": "New",
-            "isCustom": true
+            "isCustom": false
         }
     },
     "links": {
