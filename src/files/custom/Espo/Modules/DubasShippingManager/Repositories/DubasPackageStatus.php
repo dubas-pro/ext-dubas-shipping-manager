@@ -20,8 +20,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Modules\DubasShippingManager\Services;
+namespace Espo\Modules\DubasShippingManager\Repositories;
 
-class DubasParcelStatus extends \Espo\Core\Templates\Services\Base
+class DubasPackageStatus extends \Espo\Core\Templates\Repositories\Base
 {
 }

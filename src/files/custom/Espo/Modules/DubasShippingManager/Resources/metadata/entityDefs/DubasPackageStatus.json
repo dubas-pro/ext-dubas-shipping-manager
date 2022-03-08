@@ -35,14 +35,14 @@
             "type": "linkMultiple",
             "view": "views/fields/teams"
         },
-        "parcel": {
+        "package": {
             "type": "link"
         },
         "status": {
             "type": "enum",
             "options": [
                 "New",
-                "Parcel accepted",
+                "Package accepted",
                 "Collected",
                 "Shipped",
                 "In transit",
@@ -56,7 +56,7 @@
             ],
             "style": {
                 "New": null,
-                "Parcel accepted": null,
+                "Package accepted": null,
                 "Collected": null,
                 "Shipped": null,
                 "In transit": "info",
@@ -91,10 +91,10 @@
             "relationName": "EntityTeam",
             "layoutRelationshipsDisabled": true
         },
-        "parcel": {
+        "package": {
             "type": "belongsTo",
-            "foreign": "parcelStatuses",
-            "entity": "DubasParcel",
+            "foreign": "packageStatuses",
+            "entity": "DubasPackage",
             "audited": false,
             "isCustom": true
         }

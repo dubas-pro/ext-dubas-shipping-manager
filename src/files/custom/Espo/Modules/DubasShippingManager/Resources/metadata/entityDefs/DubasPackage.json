@@ -69,6 +69,14 @@
             "type": "currency",
             "isCustom": true
         },
+        "packageStatuses": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        },
         "referenceNumber": {
             "type": "varchar",
             "maxLength": 50,
@@ -100,6 +108,13 @@
             "type": "belongsTo",
             "foreign": "packages",
             "entity": "DubasParcel",
+            "audited": false,
+            "isCustom": true
+        },
+        "packageStatuses": {
+            "type": "hasMany",
+            "foreign": "package",
+            "entity": "DubasPackageStatus",
             "audited": false,
             "isCustom": true
         }

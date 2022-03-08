@@ -97,14 +97,6 @@
         "recipient": {
             "type": "link"
         },
-        "parcelStatuses": {
-            "type": "linkMultiple",
-            "layoutDetailDisabled": true,
-            "layoutMassUpdateDisabled": true,
-            "noLoad": true,
-            "importDisabled": true,
-            "isCustom": true
-        },
         "pickupLocation": {
             "type": "link",
             "view": "dubas-shipping-manager:views/dubas-parcel/fields/pickup-location"
@@ -201,13 +193,6 @@
             "type": "belongsTo",
             "foreign": "receivedParcels",
             "entity": "Account",
-            "audited": false,
-            "isCustom": true
-        },
-        "parcelStatuses": {
-            "type": "hasMany",
-            "foreign": "parcel",
-            "entity": "DubasParcelStatus",
             "audited": false,
             "isCustom": true
         },
