@@ -44,16 +44,19 @@
         "weight": {
             "notNull": false,
             "type": "float",
+            "view": "dubas-shipping-manager:views/fields/kg",
             "isCustom": true
         },
         "width": {
             "notNull": false,
             "type": "float",
+            "view": "dubas-shipping-manager:views/fields/cm",
             "isCustom": true
         },
         "height": {
             "notNull": false,
             "type": "float",
+            "view": "dubas-shipping-manager:views/fields/cm",
             "isCustom": true
         },
         "lenght": {

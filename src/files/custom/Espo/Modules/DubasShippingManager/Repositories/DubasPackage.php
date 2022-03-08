@@ -20,7 +20,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-namespace Espo\Custom\Repositories;
+namespace Espo\Modules\DubasShippingManager\Repositories;
 
 class DubasPackage extends \Espo\Core\Templates\Repositories\Base
 {

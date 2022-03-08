@@ -148,6 +148,13 @@
             "noLoad": true,
             "importDisabled": true,
             "isCustom": true
+        },
+        "referenceNumber": {
+            "type": "varchar",
+            "maxLength": 150,
+            "trim": true,
+            "options": [],
+            "isCustom": true
         }
     },
     "links": {
