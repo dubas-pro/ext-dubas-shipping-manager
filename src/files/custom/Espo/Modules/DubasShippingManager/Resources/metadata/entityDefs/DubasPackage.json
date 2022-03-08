@@ -69,14 +69,6 @@
             "type": "currency",
             "isCustom": true
         },
-        "packageStatuses": {
-            "type": "linkMultiple",
-            "layoutDetailDisabled": true,
-            "layoutMassUpdateDisabled": true,
-            "noLoad": true,
-            "importDisabled": true,
-            "isCustom": true
-        },
         "referenceNumber": {
             "type": "varchar",
             "maxLength": 50,
@@ -131,6 +123,14 @@
             "default": "New",
             "readOnly": true,
             "isCustom": false
+        },
+        "packageStatuses": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true,
+            "isCustom": true
         }
     },
     "links": {
@@ -161,7 +161,8 @@
         },
         "packageStatuses": {
             "type": "hasMany",
-            "foreign": "package",
+            "relationName": "packageStatuses",
+            "foreign": "packages",
             "entity": "DubasPackageStatus",
             "audited": false,
             "isCustom": true

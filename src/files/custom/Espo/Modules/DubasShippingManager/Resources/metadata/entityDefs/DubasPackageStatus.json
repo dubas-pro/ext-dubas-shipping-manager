@@ -35,9 +35,6 @@
             "type": "linkMultiple",
             "view": "views/fields/teams"
         },
-        "package": {
-            "type": "link"
-        },
         "status": {
             "type": "enum",
             "options": [
@@ -70,6 +67,14 @@
             },
             "default": "New",
             "isCustom": false
+        },
+        "packages": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "importDisabled": false,
+            "noLoad": false,
+            "isCustom": true
         }
     },
     "links": {
@@ -91,8 +96,9 @@
             "relationName": "EntityTeam",
             "layoutRelationshipsDisabled": true
         },
-        "package": {
-            "type": "belongsTo",
+        "packages": {
+            "type": "hasMany",
+            "relationName": "packageStatuses",
             "foreign": "packageStatuses",
             "entity": "DubasPackage",
             "audited": false,

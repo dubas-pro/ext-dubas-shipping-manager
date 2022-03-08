@@ -1,12 +1,12 @@
 {
     "fields": {
         "dubasPackage": "Package",
-        "package": "Package",
+        "packages": "Packages",
         "status": "Status"
     },
     "links": {
         "dubasPackage": "Package",
-        "package": "Package"
+        "packages": "Packages"
     },
     "labels": {
         "Create DubasPackageStatus": "Create Package Status"
