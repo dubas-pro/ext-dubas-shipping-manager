@@ -1,0 +1,21 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "package"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

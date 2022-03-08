@@ -1,20 +1,20 @@
 {
     "fields": {
-        "dubasParcel": "Parcel",
-        "parcel": "Parcel",
+        "dubasPackage": "Package",
+        "package": "Package",
         "status": "Status"
     },
     "links": {
-        "dubasParcel": "Parcel",
-        "parcel": "Parcel"
+        "dubasPackage": "Package",
+        "package": "Package"
     },
     "labels": {
-        "Create DubasParcelStatus": "Create Parcel Status"
+        "Create DubasPackageStatus": "Create Package Status"
     },
     "options": {
         "status": {
             "New": "New",
-            "Parcel accepted": "Parcel accepted",
+            "Package accepted": "Package accepted",
             "Collected": "Collected",
             "Shipped": "Shipped",
             "In transit": "In transit",
