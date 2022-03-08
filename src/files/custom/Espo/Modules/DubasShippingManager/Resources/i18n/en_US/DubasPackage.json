@@ -10,12 +10,20 @@
         "valueCurrency": "Value (Currency)",
         "valueConverted": "Value (Converted)",
         "description": "Description of content",
-        "referenceNumber": "Reference number"
+        "referenceNumber": "Reference number",
+        "type": "Type"
     },
     "links": {
         "parcel": "Parcel"
     },
     "labels": {
         "Create DubasPackage": "Create Package"
+    },
+    "options": {
+        "type": {
+            "package": "Package",
+            "dox": "Dox",
+            "pallet": "Pallet"
+        }
     }
 }

@@ -6,7 +6,7 @@
                     "name": "name"
                 },
                 {
-                    "name": "referenceNumber"
+                    "name": "type"
                 }
             ],
             [
@@ -36,6 +36,9 @@
             [
                 {
                     "name": "description"
+                },
+                {
+                    "name": "referenceNumber"
                 }
             ]
         ],
