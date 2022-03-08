@@ -12,7 +12,7 @@
         "Create DubasPackageStatus": "Create Package Status"
     },
     "options": {
-        "status": {
+        "name": {
             "New": "New",
             "Package accepted": "Package accepted",
             "Collected": "Collected",
