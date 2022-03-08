@@ -1,12 +1,8 @@
 {
     "fields": {
         "name": {
-            "type": "number",
-            "readOnly": true,
-            "unique": true,
-            "nextNumber": 1,
-            "padLength": 8,
-            "prefix": "1"
+            "type": "varchar",
+            "readOnly": true
         },
         "description": {
             "type": "text"
