@@ -1,5 +1,5 @@
 # Dubas Shipping Manager 
-
+![shipping-manager](https://user-images.githubusercontent.com/70816214/157879853-56ed2737-b33e-42e4-9784-83c801d7b04f.png)
 Shipping manager is a free extension that allows you to manage your shipping company. It includes basic functionality that shows how information about shipments and deliveries should be stored. It will certainly allow small companies to enter data according to proper standards, and if you find that your company needs something extra, you can order such functionality from us. Shipping manager is one of many extensions that we plan to release for many industries. This is to support the EspoCRM community and encourage more companies to use this great product.
 
 ## Documentation
